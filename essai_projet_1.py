@@ -6,4 +6,9 @@ def essai_console():
         valeur.append(i*nombre)
     print(valeur)
 
+def deuxième_test(nom, genre, age):
+    print(f"Je m'appelle {nom}, je suis un {genre} et j'ai {age} ans.")
+
+
 essai_console()
+deuxième_test("Édouard", "homme", 20)
